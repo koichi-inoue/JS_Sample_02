@@ -1,0 +1,46 @@
+body {
+  background-color: silver;
+}
+
+#container {
+  width: 800px;
+  margin: auto;
+  background-color: white;
+}
+
+header {
+  padding: 40px;
+  height: 80px;
+}
+
+nav {
+  padding: 8px 40px;
+  background-color: black;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 2rem;
+}
+
+article {
+  padding: 40px;
+  min-height : 400px;
+}
+
+article ul li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+footer {
+  padding: 40px;
+  height: 40px;
+  background-color : black;
+  color: white;
+}
